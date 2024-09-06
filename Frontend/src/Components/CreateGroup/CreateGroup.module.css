@@ -1,0 +1,46 @@
+.createGroupContainer {
+    padding: 20px;
+}
+
+.createGroupData {
+    display: flex;
+}
+.createGroupData img {
+    margin-right: 10px;
+}
+
+.createGroupData input {
+    width: 100%;
+    background-color: rgb(31, 43, 34);
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(42, 129, 68);
+    transition: .2s
+}
+
+.createGroupOptions {
+    height: 25px;
+    cursor: pointer;
+    color: rgb(38, 129, 65);
+    display: flex;
+    margin: 20px 0;
+    float: right;
+}
+
+.createGroupOptions div {
+    height: auto;
+    margin-left: 10px;
+    transition: .2s
+}
+
+.createGroupOptions div:hover {
+    color: rgb(80, 255, 133);
+    border-bottom: 2px solid rgb(80, 255, 133);
+}
+
+.userList {
+    height: 250px;
+    overflow: scroll;
+    margin-top: 20px;
+}

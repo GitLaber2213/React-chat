@@ -1,0 +1,18 @@
+.profileHead {
+    height: 75px;
+    display: flex;
+}
+
+.profileHead img {
+    margin: auto 0 auto 10px;
+    border-radius: 50%;
+}
+
+.profileHeadUserName {
+    margin: auto 0 auto 10px;
+}   
+.userList {
+    height: 250px;
+    overflow: scroll;
+    margin-top: 20px;
+}

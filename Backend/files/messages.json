@@ -1,0 +1,28 @@
+[
+  {
+    "messageText": {
+      "type": "ADD_MESSAGE",
+      "message": "Привет, как дела?",
+      "userId": 0,
+      "userName": "Anna Conroy",
+      "selectedUserId": 1,
+      "selectedUserName": "Britney Spinka",
+      "timeStamp": "15:39"
+    },
+    "id": null,
+    "type": "message"
+  },
+  {
+    "messageText": {
+      "type": "ADD_MESSAGE",
+      "message": "\nПривет, прекрасно",
+      "userId": 1,
+      "userName": "Britney Spinka",
+      "selectedUserId": 0,
+      "selectedUserName": "Anna Conroy",
+      "timeStamp": "15:39"
+    },
+    "id": null,
+    "type": "message"
+  }
+]

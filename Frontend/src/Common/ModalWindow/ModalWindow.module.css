@@ -1,0 +1,65 @@
+.modalWindowContainer {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5;
+    z-index: 1;
+}
+
+.modalWindowContainer.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalWindowUnContainer {
+    max-height: 450px;
+    max-width: 1200px;
+    width: 300px;
+    background-color: rgb(31, 43, 34);
+    box-shadow: 0 0 10px 5px rgb(52, 71, 57);
+    opacity: 0.1;
+    transition: 0.4s all;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.modalWindowUnContainer.active {
+    opacity: 1;
+}
+
+.windowHeadContainer {
+    font-size: 24px;
+    display: flex;
+    padding: 10px;
+}
+
+.windowHead {
+    margin: auto 0;
+}
+
+.closeWindowBtn {
+    font-size: 38px;
+    font-weight: lighter;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0 12px 2px 12px;
+    transition: .5s;
+}
+
+.closeWindowBtn:hover {
+    border-radius: 30px;
+    background-color: rgb(65, 85, 71);
+}
+
+.closeWindowBtn:after {
+    content: "\00d7";
+}

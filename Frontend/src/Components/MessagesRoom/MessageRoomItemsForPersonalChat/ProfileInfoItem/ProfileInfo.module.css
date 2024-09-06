@@ -1,0 +1,36 @@
+.profileHead {
+    height: 75px;
+    display: flex;
+}
+
+.profileHead img {
+    margin: auto 0 auto 10px;
+    border-radius: 50%;
+}
+
+.profileHeadUserName {
+    margin: auto 0 auto 10px;
+}
+
+.form {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.el {
+    padding: 15px;
+    display: flex;
+    transition: .2s
+}
+
+.el:hover {
+    background-color: rgb(65, 85, 71);
+}
+
+.el img {
+    margin: auto 10px auto 0;
+}
+
+.el div {
+    margin: auto 0;
+}

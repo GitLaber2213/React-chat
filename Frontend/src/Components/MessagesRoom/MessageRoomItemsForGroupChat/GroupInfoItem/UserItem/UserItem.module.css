@@ -1,0 +1,19 @@
+.userItemContainer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.userItemContainer.selected {
+    background-color: rgb(65, 85, 71);
+}
+
+.userItemContainer img {
+    border-radius: 50px;
+}
+
+.userItemContainer div {
+    margin-left: 10px;
+}
+

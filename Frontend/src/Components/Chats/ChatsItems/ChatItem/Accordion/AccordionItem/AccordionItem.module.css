@@ -1,0 +1,27 @@
+.wrapHeader {
+    padding: 5px;
+    background-color: rgb(114, 192, 140);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.wrapHeader div {
+    width: 100%;
+}
+
+.wrapHeader img {
+    float: right;
+    transform-origin: center; 
+    transition: transform 0.3s ease; 
+}
+
+.wrapHeader div.active {
+    transform: scaleY(-1); 
+}
+
+.wrapBody {
+    height: 50vh;
+    overflow-y: scroll;
+}
